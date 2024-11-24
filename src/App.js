@@ -4,6 +4,7 @@ import { Component } from 'react';
 import Counter from './Components/Counter';
 import { FetchUserData } from './Components/FetchUserData';
 import EvenOddFunc from './Components/Even-Odd_Func';
+import { DogBreedFunc } from './Components/DogBreedFunc';
 
 class App extends Component{
   render(){
@@ -17,7 +18,8 @@ class App extends Component{
         <hr></hr>
         <Counter initialCount={0} diff={100} /> */}
         {/* <FetchUserData userId={1}/> */}
-        <EvenOddFunc />
+        {/* <EvenOddFunc /> */}
+        <DogBreedFunc />
       </div>
     )
   }
